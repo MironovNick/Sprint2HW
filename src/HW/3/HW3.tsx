@@ -17,7 +17,7 @@ export const HW3 = () => {
 
     const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
         // setCurrentText(ЧЕГО-ТО НЕ ХВАТАЕТ);
-        setCurrentText(event.currentTarget.value);
+        setCurrentText(event.currentTarget.value)
     };
 
     const handleSave = () => {
